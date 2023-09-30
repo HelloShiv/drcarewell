@@ -1,0 +1,80 @@
+.image-with-gradient {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+  }
+  
+.gradient-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: 
+    linear-gradient(180deg, rgba(0, 0, 0, 0.671) 0%, rgba(255,255,255,0) 89%),
+    linear-gradient(270deg, rgba(255,255,255,0) 28%, rgba(0,0,0,0.49) 100%);
+    pointer-events: none;
+}
+
+
+
+
+  .herosection {
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.herosection-detail {
+    position: absolute;
+    margin-top: 100px;
+    width: 70vw;
+    margin-right: 15vw;
+    margin-left:15vw;
+    margin-top: 20vh;    
+    color: #fff;
+    padding: 20px; /* Adjust the padding as needed */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.herosection-detail  p {
+    margin: 0; /* Remove default margin */
+    font-size: 3.5rem; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+    font-family: 'Montserrat', sans-serif;
+}
+
+#cover-detail{
+  
+  margin-bottom: 3vh;
+  width: 30vw;
+  line-height: 1.6rem;
+  font-size:18px;
+}
+
+.details-block{
+  margin-top: 10vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.socialMedia-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 1vh;
+}
+
+.horizontal-line{
+  background-color: #fff;
+  height: 10vh;
+  width: 3px;
+  border-radius: 25px;
+}

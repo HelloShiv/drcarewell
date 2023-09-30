@@ -1,8 +1,9 @@
+import Coverpage from "./components/Coverpage.jsx";
 
 function App() {
   return (
-    <div>
-      <h1>Dr Carewell</h1>
+    <div> 
+      <Coverpage />
     </div>
   );
 }
