@@ -15,10 +15,10 @@ function Navbar() {
         </div>
         <ul className="menu-items">
           <li><a href="/">Home</a></li>
-          <li><a href="/LostAndFound">About</a></li>
-          <li><a href="/Marketplace">Services</a></li>
-          <li><a href="/Marketplace">Contact</a></li>
-          <li><a href="/Marketplace"><Button name="Book Appointment"/></a></li>
+          <li><a href="/About">About</a></li>
+          <li><a href="/Services">Services</a></li>
+          <li><a href="/Contact">Contact</a></li>
+          <li><a href="/BookAppointment"><Button name="Book Appointment"/></a></li>
         </ul>
         <h1 className="logo"><img src={logo}></img>Dr. Carewell</h1>
       </div>
