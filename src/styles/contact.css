@@ -1,0 +1,18 @@
+.contact-Block{
+    background-color: #6EBB2D;  
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 10vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h1{
+    padding: 50 100 0 100;
+    font-size: 3rem;
+}

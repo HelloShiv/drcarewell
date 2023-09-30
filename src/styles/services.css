@@ -1,0 +1,24 @@
+.services{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 3vw;
+    overflow-y:hidden;
+    
+}
+
+.card-grid {
+    margin-top: 5vh;
+    margin-bottom: 9vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start; /* Adjust alignment as needed */
+    gap: 5vh /* Adjust the gap between cards */
+  }
+  
+  @media (max-width: 768px) {
+    .card-grid {
+      justify-content: center; /* Center cards on smaller screens */
+    }
+  }

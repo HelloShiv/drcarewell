@@ -1,0 +1,60 @@
+.features{
+    background: #1C2534;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.featuresContainer{
+    
+    margin-left: 15vw;
+    margin-right: 25vw;
+    margin-top: 5vh;
+}
+
+.featuresContainer > h1 {
+    font-size: 3rem;
+}
+
+.featuresContainer >p {
+    font-family:sans-serif;
+    font-weight: 100;
+    padding-top: 20px;
+    font-size: 18px;
+    width: 35vw;
+
+}
+.featureImg{
+    margin-left: 3vw;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+}
+
+.featureImg img {
+ margin-top: 5vh;
+ margin-bottom: 5vh;
+ border-radius: 20px;
+}
+
+.customer{
+    background: #253041;
+    padding: 30px;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+.testimonial{
+    margin-left: 3vw;
+    margin-top: 2vw;
+    height: 400px;
+    display: flex;
+    flex-flow: row;
+    gap: 2vw;
+    
+}
+

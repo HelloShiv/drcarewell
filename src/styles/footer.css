@@ -1,0 +1,36 @@
+.footerContainer{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    gap: 2vw;
+    flex-wrap: nowrap;
+}
+
+li{
+    margin-top: 1vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.cont{
+    width: 12vw;
+}
+
+.copyright{    
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 3vh;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    font-size: 1.3rem;
+
+}
+
+img:hover{
+    scale:1.1;
+}
