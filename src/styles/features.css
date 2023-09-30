@@ -41,6 +41,7 @@
     background: #253041;
     padding: 30px;
     width: 100%;
+    height: auto;
     max-width: 420px;
     height: auto;
     font-family: sans-serif;
@@ -51,7 +52,7 @@
 .testimonial{
     margin-left: 3vw;
     margin-top: 2vw;
-    height: 400px;
+    height: auto;
     display: flex;
     flex-flow: row;
     gap: 2vw;
