@@ -1,3 +1,5 @@
+import { Modal , Button as AntButton } from 'antd';
+import React, { useState } from 'react';
 import Navbar from "./Navbar";
 import Bundle from "./Bundle"
 import Button from "./Button.jsx";
@@ -16,9 +18,19 @@ import f2img from "../images/f2.jpg";
 import f3img from "../images/f3.jpg";
 import f4img from "../images/f4.jpg";
 import comma from "../images/comma.png";
+import CustomButton from "./Button.jsx";
 
 
 function Coverpage(){
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  const showModal = () => {
+    setIsModalVisible(true);
+  };
+
+  const handleCancel = () => {
+    setIsModalVisible(false);
+  };
 
     return(
        <div className="envelope" style={{overflowX:"hidden"}}>
@@ -35,7 +47,7 @@ function Coverpage(){
                 <div className="details-block">
                     <div >
                     <p id="cover-detail">We offer a wide range of services including General Physician, Gynecologist, Pediatrician, Developmental Pediatrician, Occupational Therapy, Speech Therapy, Physiotherapy, VBT, Counseling and Psychological Assessment. </p>
-                    <Button name="Contact Us"/>
+                    <CustomButton name="Contact Us" onClick={showModal}/>
                     </div>
                     <div className="socialMedia-icons">
                         <div className="horizontal-line"></div>
@@ -116,13 +128,40 @@ function Coverpage(){
 
             <h1> Book an Appointment Now </h1>
             <h3>Contact</h3>
-            <div className="call-now-btn"> Call now</div>
+            <div className="call-now-btn" onClick={showModal}> Call now</div>
             </div>
          </div>
 
          <Footer />
 
+        <Modal
+          title={
+            <span style={{ fontSize: '24px' , marginRight:"2vw" }}>Book an Appointment</span>
+          }
+          centered
+          visible={isModalVisible}
+          onCancel={handleCancel}
+          style={{
+            fontSize:"3rem",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            height: "100vh",
+            width: "60vw", // Adjust the width as needed
+          }}
+          footer={[
+            <AntButton key="cancel" onClick={handleCancel}>
+              Cancel
+            </AntButton>,
+          ]}
+        >
+          <div style={{ fontSize: '18px' , marginRight:"2vw"}}>
+            Contact us at: <strong>+916381601020</strong>
+          </div>
+        </Modal>
+
        </div>
+            
     );
 }
 
