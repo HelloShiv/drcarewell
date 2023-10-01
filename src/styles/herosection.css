@@ -93,14 +93,18 @@
   }
 }
 
-@media (max-width: 492px){
+@media (max-width: 538px){
   .herosection-detail{
-    
+    font-family: sans-serif;
     font-size: 1rem;
   }
 
   .herosection-detail p {
     margin-top: -5vh;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+  }
+
+  #cover-detail{
+    font-size: 1rem;
   }
 }

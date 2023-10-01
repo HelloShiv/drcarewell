@@ -31,7 +31,7 @@ function Coverpage(){
             </div>
 
             <div className="herosection-detail prevent-select">
-                <p>Providing<br/>Quality <br />Healthcare Services</p>
+                <p className="hero-heading">Providing Quality <br />Healthcare Services</p>
                 <div className="details-block">
                     <div >
                     <p id="cover-detail">We offer a wide range of services including General Physician, Gynecologist, Pediatrician, Developmental Pediatrician, Occupational Therapy, Speech Therapy, Physiotherapy, VBT, Counseling and Psychological Assessment. </p>
