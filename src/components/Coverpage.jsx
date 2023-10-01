@@ -15,14 +15,13 @@ import f1img from "../images/f1.jpg";
 import f2img from "../images/f2.jpg";
 import f3img from "../images/f3.jpg";
 import f4img from "../images/f4.jpg";
-import f5img from "../images/f5.jpg";
 import comma from "../images/comma.png";
 
 
 function Coverpage(){
 
     return(
-       <div className="envelope">
+       <div className="envelope" style={{overflowX:"hidden"}}>
 
         <div className="herosection">
 
@@ -62,20 +61,20 @@ function Coverpage(){
          <div className="features">
             <div className="featuresContainer">
                 <h1>Highlighted Features </h1>
-                <p>
+                <p className="highlight-p">
                 At Dr Carewell, we offer a wide range of services to cater to the various needs of children and their families. From general physician consultations to specialized developmental pediatrics, we have it all. 
                 </p>
                 <div className="featureImg">
-                    <img src={f1img} alt="" srcset="" style={{height:"400px",maxWidth:"380px",top:"-16px",position:"relative"}}/>
-                    <img src={f2img} alt="" srcset="" style={{height:"420px",maxWidth:"380px"}}/>
-                    <img src={f3img} alt="" srcset="" style={{height:"400px",maxWidth:"380px",top:"-16px",position:"relative"}}/>
-                    <img src={f4img} alt="" srcset="" style={{height:"520px",maxWidth:"380px"}}/>
-                    {/* <img src={f5img} alt="" srcset="" style={{height:"300px",maxWidth:"280px",top:"-12px",position:"relative"}}/> */}
+                <img className="f1 img-style" src={f1img} alt="" srcset="" />
+                <img className="f2 img-style" src={f2img} alt="" srcset="" />
+                <img className="f3 img-style" src={f3img} alt="" srcset="" />
+                <img className="f4 img-style" src={f4img} alt="" srcset="" />
+                    
 
                 </div>
 
                 <h1 style={{color:"#936EFE"}}>Expert Team of Specialists </h1>
-                <p>
+                <p >
                 Our team comprises highly experienced and skilled doctors and therapists who are passionate about delivering the best healthcare services for children. 
                 </p>
 
@@ -83,7 +82,7 @@ function Coverpage(){
                     <div className="customer-box">
                         <div className="customer">
                             <img src={comma} alt="" style={{height:"80px" ,marginLeft:"2vh",display:"block" ,marginLeft:"0"}}/>
-                        Dr. Carewell is the best hospital I have ever been to. The doctors and staff are highly professional and caring. 
+                        Dr. Carewell is the best hospital I have ever been to. The doctors and staff are highly professional and caring. Doctors are highly trained and their behaviour is also very welcoming.
                         <div style={{marginTop:"30px" ,borderTop:"2px solid #fff"}} />
                         <h4 style={{marginTop:"30px" }}>Sorabh</h4>
                         </div>
@@ -117,7 +116,7 @@ function Coverpage(){
 
             <h1> Book an Appointment Now </h1>
             <h3>Contact</h3>
-            <div style={{width:"10vw",backgroundColor:"#fff" ,height:"5vh",borderRadius:"50px",color:"#000", display:"flex",justifyContent:"center",alignItems:"center",fontSize:"1.3rem" ,fontWeight:"bold" ,marginTop:"2vh",marginBottom:"8vh"}}> Call now</div>
+            <div className="call-now-btn"> Call now</div>
             </div>
          </div>
 

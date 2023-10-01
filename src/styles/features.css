@@ -7,11 +7,11 @@
 .featuresContainer{
     
     margin-left: 15vw;
-    margin-right: 25vw;
-    margin-top: 5vh;
+    margin-right: 15vw;
 }
 
 .featuresContainer > h1 {
+    padding-top: 5vh;
     font-size: 3rem;
 }
 
@@ -52,6 +52,7 @@
 .testimonial{
     margin-left: 3vw;
     margin-top: 2vw;
+    padding-bottom: 3vh;
     height: auto;
     display: flex;
     flex-flow: row;
@@ -59,3 +60,117 @@
     
 }
 
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-style {
+    max-width: 380px;
+  }
+  
+  .f1 {
+    height: 300px;
+    top: -16px;
+    position: relative;
+  }
+  
+  .f2 {
+    height: 420px;
+  }
+  
+  .f3 {
+    height: 300px;
+    top: -16px;
+    position: relative;
+    margin: 0;
+  }
+  
+  .f4 {
+    height: 420px;
+  }
+
+  
+
+@media (max-width: 1844px){
+    .f4{
+      display: none;
+      
+    }
+}
+
+@media(max-width:1273px){
+    .featureImg{
+        margin-left: -5vw;
+    }
+}
+
+@media(max-width:1048px){
+    .featureImg{
+        margin-left: -10vw;
+    }
+}
+@media(max-width:997px){
+    .featureImg{
+        margin-right: -10vw;
+    }
+}
+
+@media(max-width:962px){
+    .featureImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 1391px){
+    .f4{
+      display: none;
+      
+    }
+
+    .featuresContainer h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .featuresContainer >p {
+        width: 70vw;
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+  }
+  
+  
+  @media (max-width: 726px){
+    .featureImg .f3{
+        margin-bottom: 0;
+    }
+    .f1{
+        position: relative;
+        top: -12px;
+        display: block;
+        height: 140px;
+        width: 100%;
+        max-width: 135px;
+        background-color: red;
+    }
+
+    .f2{
+        position: relative;
+        height: 200px;
+        max-width: 135px;
+        width: 100%;
+    }
+    .f3{
+        height: 155px;
+        max-width: 135px;
+        width: 100%;
+    }
+  }
+
+  

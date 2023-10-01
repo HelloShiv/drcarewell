@@ -23,7 +23,6 @@ function footer(){
                 <h2>Services</h2>
                 <ul>
                     <li>General Physician</li>
-                    <li>dr.carewell@gmail.com</li>
                     <li>Pediatrician</li>
                     <li>Gynecologist</li>
                 </ul>
@@ -54,9 +53,9 @@ function footer(){
                     <li>6381601020</li>
                     <li>About</li>
                     <li>
-                        <img src={facebook} alt="facebook icon" />
-                        <img src={gmail} alt="gmail icon" />
-                        <img src={insta} alt="instagram icon" />
+                        <img className="social-icons" src={facebook} alt="facebook icon" />
+                        <img className="social-icons" src={gmail} alt="gmail icon" />
+                        <img className="social-icons" src={insta} alt="instagram icon" />
                     </li>
                 </ul>
             </div>

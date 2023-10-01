@@ -17,6 +17,8 @@
 
 
 .navbar{
+    position: relative;
+    z-index: 2;
     margin-top: 1.8vh;    
     margin-right: 15vw;
     margin-left: 15vw;
@@ -69,9 +71,9 @@
     color: #117964;
 }
 
-@media (max-width: 450px){
+@media (max-width: 492px){
     .logo{
-        font-size: 2rem;
+        font-size: 1.4rem;
         padding-right: 5%;
         padding-top: 1%;
     }
@@ -80,7 +82,7 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 1391px){
     .navbar{
         opacity: 0.95;
     }
@@ -91,6 +93,7 @@
     }
 
     .navbar-container{
+        
         display: block;
         position: relative;
         height: 64px;
@@ -144,14 +147,18 @@
     }
 
     .navbar .menu-items{
+        position: relative;
+        top:-3vh;
+        width: calc(100% + 25vw);
+        left: -10vw;
         padding-top: 100px;
-        background: #fff;
-        height: 100vh;
-        max-width: 300px;
+        background: #1C2534;
+        height: 101vh;
+        max-width: 400px;
         transform: translate(-150%);
         display: flex;
         flex-direction: column;
-        margin-left: -40px;
+        margin-left: -50px;
         padding-left: 40px;
         transition: transform 0.5s ease-in-out;
         /* box-shadow:  5px 0px 10px 0px #aaa; */

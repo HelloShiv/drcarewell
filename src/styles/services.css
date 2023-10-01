@@ -6,6 +6,7 @@
     padding-top: 3vw;
     overflow-y:hidden;
     
+    
 }
 
 .card-grid {
@@ -13,7 +14,7 @@
     margin-bottom: 9vh;
     display: flex;
     flex-wrap:wrap;
-    justify-content: flex-start; /* Adjust alignment as needed */
+    justify-content: center; /* Adjust alignment as needed */
     gap: 5vh /* Adjust the gap between cards */
   }
   
