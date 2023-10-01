@@ -31,7 +31,7 @@ function Navbar() {
         <li><ScrollLink to="about" smooth={true} duration={500}>About</ScrollLink></li>
         <li><ScrollLink to="services" smooth={true} duration={500}>Services</ScrollLink></li>
         <li><ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink></li>
-        <li><ScrollLink to="bookAppointment" smooth={true} duration={500}><CustomButton name="Book Appointment" onClick={showModal} />
+        <li><ScrollLink to="bookAppointment" smooth={true} duration={500}><CustomButton className="overBtn"name="Book Appointment" onClick={showModal} />
         </ScrollLink></li>
       </ul>
         <h1 className="logo"><img src={logo}></img>Dr. Carewell</h1>

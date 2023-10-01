@@ -47,7 +47,7 @@ function Coverpage(){
                 <div className="details-block">
                     <div >
                     <p id="cover-detail">We offer a wide range of services including General Physician, Gynecologist, Pediatrician, Developmental Pediatrician, Occupational Therapy, Speech Therapy, Physiotherapy, VBT, Counseling and Psychological Assessment. </p>
-                    <CustomButton name="Contact Us" onClick={showModal}/>
+                    <CustomButton className="overBtn" name="Contact Us" onClick={showModal}/>
                     </div>
                     <div className="socialMedia-icons">
                         <div className="horizontal-line"></div>
@@ -128,7 +128,7 @@ function Coverpage(){
 
             <h1> Book an Appointment Now </h1>
             <h3>Contact</h3>
-            <div className="call-now-btn" onClick={showModal}> Call now</div>
+            <div className="call-now-btn overBtn" onClick={showModal}> Call now</div>
             </div>
          </div>
 
