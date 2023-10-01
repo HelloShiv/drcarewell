@@ -23,7 +23,7 @@ function Coverpage(){
     return(
        <div className="envelope" style={{overflowX:"hidden"}}>
 
-        <div className="herosection">
+        <div className="herosection" id="home">
 
             <div className="image-with-gradient" style={{ backgroundImage: `url(${cover})` }}>
             <div className="gradient-overlay"></div> 
@@ -49,7 +49,7 @@ function Coverpage(){
          </div>
 
         {/* Services section */}
-         <div className="services" >
+         <div className="services" id="services" >
             Our Services
             <div className="bundle">
 
@@ -58,7 +58,7 @@ function Coverpage(){
          </div>
 
         {/* Features section */}
-         <div className="features">
+         <div className="features" id="about">
             <div className="featuresContainer">
                 <h1>Highlighted Features </h1>
                 <p className="highlight-p">
@@ -112,7 +112,7 @@ function Coverpage(){
          </div>
 
          <div className="contact-Block">
-            <div className="contact">
+            <div className="contact" id="contact">
 
             <h1> Book an Appointment Now </h1>
             <h3>Contact</h3>

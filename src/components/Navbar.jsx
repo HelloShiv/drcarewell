@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { Link as ScrollLink } from 'react-scroll';
 import logo from '../images/logo.png'
 import "../styles/navbar.css";
-import Button from '../components/Button'
+import Button from "../components/Button.jsx"
+
 
 function Navbar() {   
   return (
@@ -14,12 +15,12 @@ function Navbar() {
           <span className="line line3"></span>
         </div>
         <ul className="menu-items">
-          <li><a href="/">Home</a></li>
-          <li><a href="/About">About</a></li>
-          <li><a href="/Services">Services</a></li>
-          <li><a href="/Contact">Contact</a></li>
-          <li><a href="/BookAppointment"><Button name="Book Appointment"/></a></li>
-        </ul>
+        <li><ScrollLink to="home" smooth={true} duration={500}>Home</ScrollLink></li>
+        <li><ScrollLink to="about" smooth={true} duration={500}>About</ScrollLink></li>
+        <li><ScrollLink to="services" smooth={true} duration={500}>Services</ScrollLink></li>
+        <li><ScrollLink to="contact" smooth={true} duration={500}>Contact</ScrollLink></li>
+        <li><ScrollLink to="bookAppointment" smooth={true} duration={500}><Button name="Book Appointment"/></ScrollLink></li>
+      </ul>
         <h1 className="logo"><img src={logo}></img>Dr. Carewell</h1>
       </div>
     </nav>
