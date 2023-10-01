@@ -214,3 +214,10 @@
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
     }
+
+@media (max-width: 375px){
+    .navbar-container{
+        margin-left: -5vw;
+    }
+    
+}

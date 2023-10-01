@@ -108,3 +108,17 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 375px){
+  .herosection-detail{
+      margin-left: 5vw;
+  }
+  
+}
+
+@media (max-width: 330px){
+  .logo{
+      font-size: 1rem;
+  }
+  
+}
