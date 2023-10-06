@@ -19,6 +19,7 @@
 .ant-card-meta-title {
   text-overflow: unset !important;
   white-space: unset !important;
+  color: red;
 }
 
 @media (max-width: 768px) {
