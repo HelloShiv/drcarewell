@@ -87,7 +87,7 @@ function Coverpage(){
 
                 </div>
 
-                <h1 style={{color:"#936EFE"}}>Expert Team of Specialists </h1>
+                <h1 style={{color:"#936EFE"}}>Testimonial </h1>
                 <p >
                 Our team comprises highly experienced and skilled doctors and therapists who are passionate about delivering the best healthcare services for children. 
                 </p>
