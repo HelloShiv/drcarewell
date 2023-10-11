@@ -76,7 +76,7 @@ function Coverpage(){
             <div className="featuresContainer">
                 <h1>Highlighted Features </h1>
                 <p className="highlight-p">
-                At Dr Carewell, we offer a wide range of services to cater to the various needs of children and their families. From general physician consultations to specialized developmental pediatrics, we have it all. 
+                At Dr Carewell, we offer a wide range of services to cater to the various needs of children and their families. From general physician consultations to specialized developmental pediatrics, we have it all.
                 </p>
                 <div className="featureImg">
                 <img className="f1 img-style" src={f1img} alt="" srcset="" />
@@ -89,7 +89,7 @@ function Coverpage(){
 
                 <h1 style={{color:"#936EFE"}}>Testimonial </h1>
                 <p >
-                Our team comprises highly experienced and skilled doctors and therapists who are passionate about delivering the best healthcare services for children. 
+                Our team comprises highly experienced and skilled doctors and therapists who are passionate about delivering the best healthcare services for children. Listen about us from the families that we treated.
                 </p>
 
                 <div className="testimonial">
