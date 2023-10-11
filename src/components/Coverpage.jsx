@@ -9,9 +9,11 @@ import "../styles/services.css";
 import "../styles/features.css";
 import "../styles/contact.css"
 
+import Map from "./Map"
 import cover from "../images/cover.jpg"
 import facebook from "../images/facebook.png";
 import instagram from "../images/instagram.png";
+import hospital from "../images/Hospital-drcarewell.png"
 import gmail from "../images/gmail.png";
 import f1img from "../images/f1.jpg";
 import f2img from "../images/f2.jpg";
@@ -94,7 +96,7 @@ function Coverpage(){
                     <div className="customer-box">
                         <div className="customer">
                             <img src={comma} alt="" style={{height:"80px" ,marginLeft:"2vh",display:"block" ,marginLeft:"0"}}/>
-                        Dr. Carewell is the best hospital I have ever been to. The doctors and staff are highly professional and caring. Doctors are highly trained and their behaviour is also very welcoming.
+                        Dr. Carewell is the best hospital I have ever been to. The doctors and staff are highly professional and caring. In short a great place for healthcare.
                         <div style={{marginTop:"30px" ,borderTop:"2px solid #fff"}} />
                         <h4 style={{marginTop:"30px" }}>Sorabh</h4>
                         </div>
@@ -119,6 +121,11 @@ function Coverpage(){
                             <h4 style={{marginTop:"30px"}}>Sarthakh</h4>
                         </div>
                     </div>
+                </div>
+                    <h1>Location  </h1>
+                <div className="map">
+                <img className="hospital-img" src={hospital} alt="" srcset="" />
+                <Map />
                 </div>
             </div>
          </div>
@@ -159,7 +166,6 @@ function Coverpage(){
             Contact us at: <strong>+916381601020</strong>
           </div>
         </Modal>
-
        </div>
             
     );

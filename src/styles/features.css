@@ -174,3 +174,21 @@
   }
 
   
+  .map{
+    margin-top: 1vh;
+    width: 100%;
+    display:flex;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .customer{
+    border-radius: 20px;
+  }
+  
+  .hospital-img{
+    height: 30vh;
+    border-radius: 3%;
+    display: none;
+  }
