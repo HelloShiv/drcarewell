@@ -95,7 +95,7 @@ function Coverpage(){
                 <div className="testimonial">
                     <div className="customer-box">
                         <div className="customer">
-                            <img src={comma} alt="" style={{height:"80px" ,marginLeft:"2vh",display:"block" ,marginLeft:"0"}}/>
+                            <img className="comma" src={comma} alt="" />
                         Dr. Carewell is the best hospital I have ever been to. The doctors and staff are highly professional and caring. In short a great place for healthcare.
                         <div style={{marginTop:"30px" ,borderTop:"2px solid #fff"}} />
                         <h4 style={{marginTop:"30px" }}>Sorabh</h4>
@@ -105,7 +105,7 @@ function Coverpage(){
 
                     <div className="customer-box">
                         <div className="customer">
-                            <img src={comma} alt="" style={{height:"80px" ,marginLeft:"2vh",display:"block" ,marginLeft:"0"}}/>
+                            <img className="comma" src={comma} alt="" />
                             Dr. Carewell has been a great help to me and my family. The doctors are knowledgeable and the staff is friendly and helpful.  
                             <div style={{marginTop:"30px" ,borderTop:"2px solid #fff"}} />
                             <h4 style={{marginTop:"30px" }}>Arpit</h4>
@@ -115,14 +115,14 @@ function Coverpage(){
 
                     <div className="customer-box">
                         <div className="customer">
-                            <img src={comma} alt="" style={{height:"80px" ,marginLeft:"2vh",display:"block" ,marginLeft:"0"}}/>
+                            <img className="comma" src={comma} alt="" />
                             I would highly recommend Dr. Carewell to anyone in need of medical assistance. The service is top-notch and the doctors are highly skilled.  
                             <div style={{marginTop:"30px" ,borderTop:"2px solid #fff"}} />
                             <h4 style={{marginTop:"30px"}}>Sarthakh</h4>
                         </div>
                     </div>
                 </div>
-                    <h1>Location  </h1>
+                    <p style={{fontSize:"3rem" , fontWeight:"bold" ,marginBottom:"3vh"}}>Location  </p>
                 <div className="map">
                 <img className="hospital-img" src={hospital} alt="" srcset="" />
                 <Map />
