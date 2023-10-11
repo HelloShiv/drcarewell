@@ -1,32 +1,35 @@
-.services{
-    margin-left: 15vw;
-    margin-right: 15vw;
-    font-size: 3rem;
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 3vw;
-    overflow-y:hidden;
-    
-    
+.services {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 3vw;
+  overflow-y: hidden;
 }
 
 .card-grid {
-    margin-top: 5vh;
-    margin-bottom: 9vh;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center; /* Adjust alignment as needed */
-    gap: 5vh /* Adjust the gap between cards */
-  }
-  
-  @media (max-width: 768px) {
-    .card-grid {
-      justify-content: center; /* Center cards on smaller screens */
-    }
-  }
+  margin-top: 5vh;
+  margin-bottom: 9vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Adjust alignment as needed */
+  gap: 5vh; /* Adjust the gap between cards */
+}
 
-  @media (max-width: 492px){
-    .services{
-      padding-top: 3vh;
-      font-size: 2rem;
-    }
+.ant-card-meta-title {
+  text-overflow: unset !important;
+  white-space: unset !important;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    justify-content: center; /* Center cards on smaller screens */
   }
+}
+
+@media (max-width: 492px) {
+  .services {
+    padding-top: 3vh;
+    font-size: 2rem;
+  }
+}
