@@ -48,7 +48,7 @@ function Coverpage(){
                 <p className="hero-heading">Providing Quality <br />Healthcare Services</p>
                 <div className="details-block">
                     <div >
-                    <p id="cover-detail">We offer a wide range of services including General Physician, Gynecologist, Pediatrician, Developmental Pediatrician, Occupational Therapy, Speech Therapy, Physiotherapy, VBT, Counseling and Psychological Assessment. </p>
+                    <p id="cover-detail">We offer a wide range of services including General Physician, Gynecologist, Pediatrician, Developmental Pediatrician, Occupational Therapy, Speech Therapy, Physiotherapy, CBT, Counseling and Psychological Assessment. </p>
                     <CustomButton className="overBtn" name="Contact Us" onClick={showModal}/>
                     </div>
                     <div className="socialMedia-icons">
