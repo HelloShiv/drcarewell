@@ -43,7 +43,7 @@ function Bundle() {
         title="Psychological Assessment"
       />
       <SingleCard src={Speech} alt="Speech Therapy" title="Speech Therapy" />
-      <SingleCard src={VBT} alt="VBT" title="VBT" />
+      <SingleCard src={VBT} alt="CBT" title="CBT" />
     </div>
   );
 }
