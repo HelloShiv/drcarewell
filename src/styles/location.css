@@ -1,0 +1,46 @@
+.map{
+    padding-top: 2vh;
+}
+.location{
+    display: flex;
+    
+}
+
+.address-text{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 1.4em;
+    max-width:400px ;
+    max-height:30vh;
+    padding: 20px; 
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+.title-address{
+    font-size: 2rem;
+    color: rgb(147, 110, 254);
+}
+
+
+@media (max-width: 600px){
+    
+    .address-text{
+        font-size: 1.2rem;
+        line-height: normal;
+        margin-top: 0vh;
+        padding-top: 0;
+    }
+    .location{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+    .title-address{
+        display: none;
+    }
+    
+  }

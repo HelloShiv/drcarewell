@@ -122,7 +122,7 @@ function Coverpage(){
                         </div>
                     </div>
                 </div>
-                    <p style={{fontSize:"3rem" , fontWeight:"bold" ,marginBottom:"3vh"}}>Location  </p>
+                <h1 style={{color:"#fff"}}>Location </h1>
                 <div className="map">
                 <img className="hospital-img" src={hospital} alt="" srcset="" />
                 <Map />
