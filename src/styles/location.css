@@ -1,9 +1,15 @@
 .map{
     padding-top: 2vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
 }
 .location{
     display: flex;
-    
+    justify-content: space-between;
+    margin-right: 10vw;
+    width: 70vw;
+    gap:2vw    
 }
 
 .address-text{
@@ -12,17 +18,17 @@
     font-size: 1.4rem;
     line-height: 1.4em;
     max-width:400px ;
-    max-height:30vh;
-    padding: 20px; 
-    margin-bottom: 2vh;
-    margin-top: 2vh;
+    max-height:30vh;    
 }
 
 .title-address{
     font-size: 2rem;
     color: rgb(147, 110, 254);
+    margin-bottom: 2vh;
 }
-
+.address-text{
+    padding-left: 0vh;
+}
 
 @media (max-width: 600px){
     
@@ -31,6 +37,7 @@
         line-height: normal;
         margin-top: 0vh;
         padding-top: 0;
+        margin-bottom: 2vw;
     }
     .location{
         display: flex;
