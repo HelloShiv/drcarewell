@@ -54,7 +54,7 @@ function footer(){
             <div className="container5 cont">
                 <h2>Contact us</h2>
                 <ul>
-                    <li>6381601020</li>
+                    <li>+916381601020</li>
                     <li>About</li>
                     <li>
                         <img className="social-icons" src={facebook} alt="facebook icon" />
