@@ -24,6 +24,10 @@ import CustomButton from "./Button.jsx";
 
 
 function Coverpage(){
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+  const emailLink = isMobile ? "mailto:drcarewell@gmail.com" : "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=drcarewell@gmail.com";
+
   const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
@@ -53,7 +57,9 @@ function Coverpage(){
                     </div>
                     <div className="socialMedia-icons">
                         <div className="horizontal-line"></div>
-                        <img className="social-icons" src={gmail} alt="" srcset="" />
+                        <a href={emailLink} target="_top">
+                        <img className="social-icons" src={gmail} alt="" srcset=""   />
+                        </a>
                         <img className="social-icons" src={facebook} alt="" srcset="" />
                         <img className="social-icons" src={instagram} alt="" srcset="" />
                         <div className="horizontal-line"></div>

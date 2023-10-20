@@ -5,6 +5,10 @@ import gmail from "../images/gmail.png";
 
 function footer(){
     const currentYear = new Date().getFullYear();
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    const emailLink = isMobile ? "mailto:drcarewell@gmail.com" : "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=drcarewell@gmail.com";
+
 
     return(<>
         <div className="footerContainer">
@@ -54,7 +58,9 @@ function footer(){
                     <li>About</li>
                     <li>
                         <img className="social-icons" src={facebook} alt="facebook icon" />
+                        <a href={emailLink} target="_top">
                         <img className="social-icons" src={gmail} alt="gmail icon" />
+                        </a>
                         <img className="social-icons" src={insta} alt="instagram icon" />
                     </li>
                 </ul>
